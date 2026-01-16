@@ -30,3 +30,12 @@ uv run fastapi deploy
 
 - [FastAPI Documentation](https://fastapi.tiangolo.com)
 - [FastAPI Cloud](https://fastapicloud.com)
+
+
+## Freely adapted for educational purposes from:
+
+[Stop Writing This Much ORM Code (SQLModel + FastAPI) Code with Josh](https://www.youtube.com/watch?v=HDyT7x5S1j4)
+
+
+
+
