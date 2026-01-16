@@ -18,3 +18,14 @@ class Note(SQLModel, table=True):
     is_done: str = Field(default=False, index=True)
     # Use a lambda so default_factory gets a function, not a value
     created_at: datetime = Field(default_factory=lambda: datetime.now(tz=timezone.utc), index=True)
+
+
+class NoteCreate(SQLModel):
+    title: str
+    content: str
+
+
+class NoteUpdate(SQLModel):
+    title: str | None = None
+    content: str | None = None
+    is_done: str | None = None
